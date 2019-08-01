@@ -1,0 +1,23 @@
+{
+
+  "manifest_version": 2,
+  "name": "Udemy quiz ripper",
+  "description": "Rips quiz's from Udemy quiz review",
+  "version": "1.0",
+
+  "permissions": [
+    "activeTab"
+  ],
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "browser_action": {
+    "default_icon": {
+      "16": "icons/udemy-16.png",
+      "32": "icons/udemy-32.png"
+    }
+  }
+
+}
