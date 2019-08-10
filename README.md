@@ -1,17 +1,26 @@
 Udemy quiz ripper
 ----------------
 
-Firefox plugin to scrape quiz's from Udemy
+Browser plugin to scrape quiz's from Udemy
 
-### Installation
+## Installation
+### Firefox
 
-    open Firefox
-    enter "about:debugging" in the URL bar
-    click "Load Temporary Add-on"
-    open the extension's directory and select any file inside the extension.
+0. open Firefox
+1. enter "about:debugging" in the URL bar
+2. click "Load Temporary Add-on"
+3. open the extension's directory and select any file inside the extension.
 
-### Usage
+### Chrome
 
-    Navigate to the quiz review page you want to rip
-    Hit the udemy button in your browser
-    Done! It will download as a json
+0. open Chrome
+1. enter "chrome://extensions/" in the URL bar
+2. open "Developer mode"
+3. click "Load unpacked"
+4. open the extension's directory and select any file inside the extension.
+
+## Usage
+
+1. Navigate to the quiz review page you want to rip
+2. Hit the udemy button in your browser
+3. Done! It will download as a json
